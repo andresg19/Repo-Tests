@@ -22,3 +22,5 @@ const containingP = () => {
 };
 containingP();
 console.log(result);
+
+

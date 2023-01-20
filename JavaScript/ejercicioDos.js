@@ -24,3 +24,10 @@ containingP();
 console.log(result);
 
 
+let array = ["Apple", "Orange", "Banana", "Strawberry", "Grape", "Mango", "Melon",
+"Pineapple", "Peach", "Peach"];
+
+let resultado = array.find(element => element === 'Grape');
+
+console.log(resultado);
+

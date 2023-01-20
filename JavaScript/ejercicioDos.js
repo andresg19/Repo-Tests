@@ -13,6 +13,7 @@ let arr = [
 
 let result = [];
 
+//BUSCAR COINCIDENCIAS CON LA LETRA p
 const containingP = () => {
   arr.forEach((string) => {
     if (string.includes("p" || "P")) {
@@ -24,10 +25,9 @@ containingP();
 console.log(result);
 
 
-let array = ["Apple", "Orange", "Banana", "Strawberry", "Grape", "Mango", "Melon",
-"Pineapple", "Peach", "Peach"];
 
-let resultado = array.find(element => element === 'Grape');
+//Buscar exactamente la palabra 'Grape'
+let resultado = arr.find(element => element === 'Grape');
 
 console.log(resultado);
 
